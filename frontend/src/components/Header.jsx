@@ -10,13 +10,6 @@ function Header({email}) {
       }>
       </Route>
             
-      <Route path="/" element={
-        <div className="header__container">
-          <p className="header__email">{email}</p>
-          <Link to='/signup' className="header__sign-link">Выйти</Link>
-        </div>
-      }>
-      </Route>
     </Routes>
     </header>
   );
